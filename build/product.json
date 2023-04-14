@@ -1,0 +1,114 @@
+[
+    {
+      "SlNo": 1,
+      "category": "Stationary",
+      "name": "Computer Paper",
+      "unit": "rim",
+      "price": 420
+     
+    },
+    {
+      "SlNo": 2,
+      "category": "Others",
+      "name": "Napthalene Ball",
+      "unit": "Pack",
+      "price": 196
+      
+    },
+    {
+      "SlNo":3,
+      "category": "Stationary",
+      "name": "Lead pencil",
+      "unit": "Pack",
+      "price": 245
+    },
+    {
+      "SlNo":4,
+      "category": "Others",
+      "name": "Phenyle White",
+      "unit": "liter",
+      "price": 229
+    },
+    {
+      "SlNo": 5,
+      "category": "Others",
+      "name": "Battery ",
+      "unit": "Amp",
+      "price": 287
+    },
+    {
+      "SlNo": 6,
+      "category": "Stationary",
+      "name": "White Paper",
+      "unit": "Pack",
+      "price": 138
+    },
+    {
+      "SlNo": 7,
+      "category": "Stationary",
+      "name": "Board Pin",
+      "unit": "Pack",
+      "price": 226
+    },
+   
+    {
+      "SlNo": 8,
+      "category": "Stationary",
+      "name": "Box File",
+      "unit": "Size",
+      "price": 437
+    },
+    {
+      "SlNo": 9,
+      "category": "Toiletries",
+      "name": "Toothbrush",
+      "unit": "Pc",
+      "price": 146
+    },
+    {
+      "SlNo": 10,
+      "category": "Others",
+      "name": "Paper Basket",
+      "unit": "inch",
+      "price": 109
+    },
+    {
+      "SlNo": 11,
+      "category": "Toiletries",
+      "name": "Toothpaste",
+      "unit": "Pc",
+      "price": 63
+    },
+    {
+      "SlNo": 12,
+      "category": "Others",
+      "name": "Polythene Bags",
+      "unit": "Kgs",
+      "price": 148
+    },
+  
+    {
+      "SlNo": 13,
+      "category": "Toiletries",
+      "name": "Razor",
+      "unit": "Pc",
+      "price": 115
+    },
+   
+    {
+      "SlNo": 14,
+      "category": "Others",
+      "name": "Tissue Paper Roll ",
+      "unit": "Pack",
+      "price": 189
+    },
+   
+    {
+      "SlNo": 15,
+      "category": "Toiletries",
+      "name": "Shampoo",
+      "unit": "gm",
+      "price": 185
+    }
+    
+]

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Poppins&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+/*-----Body Part-----*/
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:  #000000;
+     margin: 0 auto;
+     
+     
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:0 30px; 
+}
+.logo{
+    color: #FFFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.logo span{
+    color: #D69300;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.navigation{
+    display: flex;
+}
+.navigation li{
+    list-style: none;
+    margin: 8px;
+}
+.navigation li a{
+    text-decoration: none;
+    color: #FFFF;
+    font-weight: 400;
+    padding: 15px 8px;
+  
+}
+#nav-toggler{
+    display: none;
+    color: #fff!important;
+}
+.nav-icon{
+    color: #fff!important;
+}
+
+
+
+/*-----Mobile-phone Responsive Version____________*/
+
+
+
+@media (max-width:668px){
+   
+    
+    .nav-toggler-icon{
+        display: block;
+        background-color: azure;
+    }
+    .navigation{
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        padding: 20px 0;
+        transform: translateY(-330px);
+        transition: .5s ease-in-out;
+    }
+    .navigation li a{
+        color: #fff;
+    }
+    #nav-toggler:checked{
+        opacity: 0;
+        display: none;
+    }
+    #nav-toggler:checked ~ .navigation{
+        transform: translateY(0px);
+        
+    }
+    
+}

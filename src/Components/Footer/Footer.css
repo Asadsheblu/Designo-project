@@ -1,0 +1,53 @@
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 50px;
+    color: #FFFF;
+    gap: 30px;
+
+}
+.logosection{
+    display: flex;
+}
+.logosection h6{
+font-weight: 600;
+font-size: 40.5763px;
+color: #FFFF;
+}
+.text{
+color: #FFFF;
+font-size: smaller;
+}
+.logo-name{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40.5763px;
+color: #D69300;
+}
+
+li{
+    font-weight: 300;
+    font-size: small;
+    color: rgba(240, 255, 255, 0.685);
+    padding-top: 5px;
+}
+.copyright{
+    color: #FFFF;
+    font-size: smaller;
+}
+
+/*-----Mobile-phone Responsive Version____________*/
+
+
+
+@media (max-width:668px){
+   
+    
+    .footer{
+        grid-template-columns: 1fr;
+        height: fit-content;
+        row-gap: 10px;
+    }
+
+}

@@ -1,0 +1,57 @@
+/*-------------
+---------------
+          Banner section
+         ---------------
+         ------------------*/
+
+         .banner{
+            height: calc(100vh - 80px);
+            min-height: 500px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+ .banner-text{
+           
+    padding-top: 100px;     
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 82px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #1FD8B6 10.14%, #12BADF 49.71%, #C5018E 84.62%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(0.3deg);
+        }
+
+        @media (max-width:668px){
+            .banner-text{
+           
+                padding-top: 100px;     
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 40px;
+                line-height: 52px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                text-transform: uppercase;
+                background: linear-gradient(90deg, #1FD8B6 10.14%, #12BADF 49.71%, #C5018E 84.62%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                transform: rotate(0.3deg);
+                    
+            }
+            
+        }

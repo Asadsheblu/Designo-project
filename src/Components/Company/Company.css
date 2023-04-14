@@ -1,0 +1,32 @@
+.company{
+ display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+.dropbox{
+    display: flex;
+}
+.dropbox-icon{
+    width: 44.56px;
+   height: 37.86px;
+   color: gainsboro;
+}
+.dropbox img{
+    width:120px;
+   height:50px;
+}
+/*-----Mobile-phone Responsive Version____________*/
+
+
+
+@media (max-width:668px){
+   
+    
+        .company{
+            grid-template-columns: 1fr 1fr;
+            height: fit-content;
+            row-gap: 10px;
+        }
+   
+}

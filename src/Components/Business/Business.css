@@ -1,0 +1,115 @@
+
+.business{
+    height: calc(100vh - 80px);
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.business-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+   
+}
+.business h1{
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 160%;
+letter-spacing: 0.01em;
+color: #FFFFFF;
+}
+.business p{
+font-size: 18px;
+color: rgba(255, 255, 255, 0.7);
+}
+.business button{
+    width: 170px;
+    height: 64px;
+    background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.business-right {
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+   
+}
+.business-card{
+    display: flex;
+    margin: 10px;
+    
+}
+.business-card:hover{
+ padding: 10px;  
+background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #14101D 95.11%);
+box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+border-radius: 20px;
+}
+.business-card h6{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+padding-left: 30px;
+color: #FFFFFF;
+
+}
+.business-card p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+padding-left: 30px;
+color: rgba(255, 255, 255, 0.7);
+;
+
+}
+.business-card .card-circle{
+   
+        height: 64px;
+        width: 64px;
+        background-color: #09977C;
+        border-radius: 50%;
+        display: inline-block;
+     
+}
+.business-card .card-icon{
+color: #5CE1E6;
+font-size: 64px;
+text-align: center;
+padding: 10px 10px 10px 10px;
+  
+    
+}
+/*-----Mobile-phone Responsive Version____________*/
+
+
+
+@media (max-width:668px){
+   
+    .business h1{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 140%;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+        }
+        .business{
+            grid-template-columns: 1fr;
+            height: fit-content;
+            row-gap: 10px;
+        }
+   
+}
