@@ -9,8 +9,8 @@ const Footer = () => {
            <div className='footer'>
             <div>
            <div className='logosection'>
-           <img src={logo}/>
-            <h6>OR<span className='logo-name'>BIDO</span></h6>
+         
+            <h6>DES<span className='logo-name'>IGNO</span></h6>
            </div>
            <p className='text'>A new way to make the payments easy, reliable and secure.</p>
             <div>
@@ -48,7 +48,7 @@ const Footer = () => {
          </div> 
          <hr/>
         <div className='copyright'>
-        <p>Copyright <span>&copy;</span> 2023 Orbido. All Rights Reserved.</p>
+        <p>Copyright <span>&copy;</span> 2023 Designo. All Rights Reserved.</p>
         </div>
         </div>
     );

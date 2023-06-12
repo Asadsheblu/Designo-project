@@ -11,8 +11,8 @@ const Header = () => {
         <header id="home">
             <nav className="container">
                 <div className="logo">
-                   <h6>OR<span>BIDO</span></h6>
-                   <img src={logo} className=''/>
+                   <h6>DES<span>IGNO</span></h6>
+                  
                 </div>
                 <input type="checkbox" id="nav-toggler"/>
                 <label className="nav-toggler-icon" for="nav-toggler">
